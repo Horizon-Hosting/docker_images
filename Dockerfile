@@ -22,4 +22,3 @@ WORKDIR     /home/container
 COPY        ./entrypoint.sh /entrypoint.sh
 CMD         [ "/bin/bash", "/entrypoint.sh" ]
 CMD			echo Preparing Horizon Networks Gameserver Environment
-CMD			apt -y update && apt -y install liblua5.3 libz-dev rapidjson-dev libcurl4-openssl-dev curl
