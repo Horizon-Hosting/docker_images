@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH debian:buster-slim
+FROM        debian:buster-slim
 
 LABEL       author="Mackenzie Donaldson" maintainer="mack@horizonnetworks.uk"
 
