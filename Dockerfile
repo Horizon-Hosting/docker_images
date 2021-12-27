@@ -1,4 +1,4 @@
-FROM        ubuntu:latest
+FROM        ubuntu:jammy
 
 LABEL       author="Mackenzie Donaldson" maintainer="mack@horizonnetworks.uk"
 
