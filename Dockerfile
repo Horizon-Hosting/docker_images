@@ -1,4 +1,4 @@
-FROM        debian:buster-slim
+FROM        ubuntu:latest
 
 LABEL       author="Mackenzie Donaldson" maintainer="mack@horizonnetworks.uk"
 
