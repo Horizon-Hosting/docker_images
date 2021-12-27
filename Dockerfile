@@ -18,7 +18,6 @@ ENV         USER=container HOME=/home/container
 ENV         DEBIAN_FRONTEND noninteractive
 
 WORKDIR     /home/container
-
+CMD			echo Preparing Horizon Networks Gameserver Environment
 COPY        ./entrypoint.sh /entrypoint.sh
 CMD         [ "/bin/bash", "/entrypoint.sh" ]
-CMD			echo Preparing Horizon Networks Gameserver Environment
