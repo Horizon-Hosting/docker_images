@@ -8,7 +8,7 @@ MAINTAINER Hayden X, <hayden@horizonnetworks.uk>
 RUN apt update
 RUN apt install -y curl ca-certificates openssl git tar zip unzip bash fontconfig wget
 RUN apt install -y dos2unix
-RUN apt install -y sqlite3 libsqlite3-dev libmariadbclient-dev
+RUN apt install -y sqlite3 libsqlite3-dev libmariadb-dev
 RUN apt install -y locales
 RUN dpkg-reconfigure --frontend noninteractive locales
 RUN useradd -m -d /home/container -s /bin/bash container
