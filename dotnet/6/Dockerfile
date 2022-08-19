@@ -3,6 +3,7 @@
 # Environment: Linux
 # ----------------------------------
 FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
+FROM mcr.microsoft.com/dotnet/framework/sdk
 MAINTAINER Hayden X, <hayden@horizonnetworks.uk>
 
 RUN apt update
