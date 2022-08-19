@@ -2,8 +2,8 @@
 # Pterodactyl .NET Core 6.0 Pterodactyl Image DockerFile
 # Environment: Linux
 # ----------------------------------
-FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
-FROM mcr.microsoft.com/dotnet/framework/sdk
+FROM mcr.microsoft.com/dotnet/framework/sdk AS base
+
 MAINTAINER Hayden X, <hayden@horizonnetworks.uk>
 
 RUN apt update
