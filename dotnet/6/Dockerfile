@@ -2,7 +2,7 @@
 # Pterodactyl .NET Core 6.0 Pterodactyl Image DockerFile
 # Environment: Linux
 # ----------------------------------
-FROM mcr.microsoft.com/dotnet/framework/sdk AS base
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.8 AS base
 
 MAINTAINER Hayden X, <hayden@horizonnetworks.uk>
 
